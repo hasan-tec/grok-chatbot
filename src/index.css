@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
+
+.prose {
+  @apply text-gray-600;
+}
+
+.prose strong {
+  @apply text-gray-900;
+}
+
+.prose a {
+  @apply text-blue-600 hover:text-blue-700;
+}
+
+.prose code {
+  @apply text-blue-600 bg-blue-50 px-1.5 py-0.5 rounded;
+}
+
+.prose pre {
+  @apply bg-gray-50 border border-gray-200 rounded-lg;
+}
