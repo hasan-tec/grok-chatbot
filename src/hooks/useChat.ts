@@ -50,7 +50,7 @@ export function useChat() {
           messages: [
             {
               role: 'system',
-              content: 'You are Grok, a chatbot inspired by the Hitchhikers Guide to the Galaxy.'
+              content: 'You are Grok, You are a Helpfull Assistant and you are the best at what you do, coding, ui desgin, ui enhancing, problem solving, etc all the good stuff. You always take a deep breath and take it step by step.'
             },
             ...state.messages.map(m => ({
               role: m.role,
